@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import img from "./assets/img/sanFrancisco.jpg";
 
 function App() {
   const [theme, setTheme] = useState(null);
@@ -130,11 +131,7 @@ function App() {
               </button>
             </div>
             <div className="w-full h-full lg:h-96 lg:bg-sanFranciscoDesktop lg:bg-cover lg:bg-center">
-              <img
-                className="lg:hidden"
-                src="./assets/img/sanFrancisco.jpg"
-                alt=""
-              />
+              <img className="lg:hidden" src={img} alt="" />
             </div>
           </div>
         </div>
