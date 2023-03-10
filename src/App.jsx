@@ -132,7 +132,7 @@ function App() {
             <div className="w-full h-full lg:h-96 lg:bg-sanFranciscoDesktop lg:bg-cover lg:bg-center">
               <img
                 className="lg:hidden"
-                src="../public/img/sanFrancisco.jpg"
+                src="../src/assets/img/sanFrancisco.jpg"
                 alt=""
               />
             </div>
